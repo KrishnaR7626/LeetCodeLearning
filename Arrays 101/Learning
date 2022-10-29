@@ -1,0 +1,12 @@
+Enumerate returns index and object for interation
+
+use {x for x in arr} for set comprehension like so
+s = {x for x in arr}
+
+set is a class
+s is an instance
+
+set.add() illegal
+s.add(x)  legal
+
+if x in s: to search set O(1) time operation
