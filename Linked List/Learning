@@ -1,0 +1,2 @@
+2 Pointer Technique
+have a fast and slow pointer if both pointers intersect then there is a loop else the is no loop because the fast pointer would have reached the end of the linked list
