@@ -1,2 +1,4 @@
 2 Pointer Technique
 have a fast and slow pointer if both pointers intersect then there is a loop else the is no loop because the fast pointer would have reached the end of the linked list
+
+when trying to trace origin use a while loop if loop is found then have a pointer starting at head and keep incrementing slow and trace pointers as long as they are not equal to each other, if they are equal to each other then the origin of the loop has been reached and the node containing trace can be returned to which has is the start of the loop.
